@@ -1,0 +1,10 @@
+{
+  "plugin": [
+    "opencode-pty",
+    "opencode-supermemory",
+    "opencode-google-search",
+    "@zhafron/mcp-web-search",
+    "@nano-step/skill-manager",
+    "opencode-eslint-formatter"
+  ]
+}
