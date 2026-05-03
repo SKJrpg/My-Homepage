@@ -42,6 +42,17 @@
   </div>
 
   <div id="change-skin" title="Toggle Night Mode"></div>
+  <script>
+    // 同步暗色模式按钮状态：head 脚本已设置 html.page-dark-mode，此处只需添加 dark-mode-ready
+    (function() {
+      var btn = document.getElementById("change-skin");
+      if (!btn) return;
+      // 延迟启用过渡，避免刷新时重播动画
+      setTimeout(function() {
+        btn.classList.add("dark-mode-ready");
+      }, 0);
+    })();
+  </script>
 
   {% if site.navbar-extra %}
     {% for file in site.navbar-extra %}
