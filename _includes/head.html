@@ -172,4 +172,13 @@
     {% endfor %}
   {% endif %}
 
+  <script>
+    // 暗色模式：在 body 渲染前应用，避免闪动
+    (function() {
+      if (localStorage.getItem("darkMode") === "true") {
+        document.documentElement.classList.add("page-dark-mode");
+      }
+    })();
+  </script>
+
 </head>
