@@ -28,10 +28,10 @@
     inset 0 -1px 1.5px #ddd;
   cursor: pointer;
   overflow: hidden;
-  transition: .5s all;
   z-index: 1000;
 }
 
+/* 日间 ::before（太阳） */
 #change-skin::before {
   content: "";
   position: absolute;
@@ -45,10 +45,10 @@
     0 0 1.5px #333,
     inset 1px 1px 1px #f8f4e4,
     inset -1px -1px 1px #665613;
-  transition: .5s all;
   z-index: 1;
 }
 
+/* 日间 ::after（云朵/星星） */
 #change-skin::after {
   content: "";
   position: absolute;
@@ -73,19 +73,23 @@
     36px 6px 0 2.8px #abc1d9,
     42px 4px 0 2.8px #abc1d9,
     52px -5.6px 0 2.8px #abc1d9;
-  transition: .5s all;
 }
 
+/* hover 效果 */
 #change-skin:hover::before {
   filter: contrast(90%) brightness(110%);
   transform: scale(1.05);
 }
 
-#change-skin.active {
+/* ===== 暗色模式按钮样式 —— 直接响应 page-dark-mode ===== */
+
+/* 夜间：背景位移 */
+.page-dark-mode #change-skin {
   background-position: 0 0;
 }
 
-#change-skin.active::before {
+/* 夜间 ::before（月亮） */
+.page-dark-mode #change-skin::before {
   transform: translateX(36px);
   background:
     radial-gradient(circle at 50% 6px, #939aa5, #939aa5 1.6px, transparent 2px, transparent),
@@ -94,7 +98,8 @@
     radial-gradient(#cbcdda, #cbcdda);
 }
 
-#change-skin.active::after {
+/* 夜间 ::after（隐藏云朵/显示星星） */
+.page-dark-mode #change-skin::after {
   transform: translateX(36px);
   box-shadow:
     2.8px 16px 0 2.8px transparent,
@@ -112,6 +117,13 @@
     36px 6px 0 2.8px transparent,
     42px 4px 0 2.8px transparent,
     52px -5.6px 0 2.8px transparent;
+}
+
+/* 过渡仅在 dark-mode-ready 后生效，避免刷新时重播动画 */
+#change-skin.dark-mode-ready,
+#change-skin.dark-mode-ready::before,
+#change-skin.dark-mode-ready::after {
+  transition: .5s all;
 }
 
 @media (max-width: 1199px) {
