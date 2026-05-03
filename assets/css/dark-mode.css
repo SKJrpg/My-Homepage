@@ -1,116 +1,125 @@
-/* 日/夜模式切换按钮 - 基于 https://segmentfault.com/a/1190000043923189 设计 */
-#day-night-toggle {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  width: 150px;
-  height: 60px;
-  border-radius: 60px;
+/* 导航栏昼夜切换按钮 - 缩小版炫酷样式 */
+#change-skin {
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+  transform: translateY(-50%);
+  width: 60px;
+  height: 24px;
+  border-radius: 24px;
   background:
-    radial-gradient(circle at 18% 15px, #fff, #fff 4px, transparent 5px, transparent),
-    radial-gradient(circle at 35% 30px, #fff, #fff 1px, transparent 2px, transparent),
-    radial-gradient(circle at 10% 50px, #fff, #fff 2px, transparent 3px, transparent),
-    radial-gradient(circle at 25% 10px, #fff, #fff 2px, transparent 3px, transparent),
-    radial-gradient(circle at 15% 40px, #fff, #fff 1px, transparent 2px, transparent),
-    radial-gradient(circle at 30% 55px, #fff, #fff 3px, transparent 4px, transparent),
-    radial-gradient(circle at 5% 20px, #fff, #fff 0.5px, transparent 1px, transparent),
-    radial-gradient(circle at 25% 45px, #fff, #fff 0.5px, transparent 1px, transparent),
-    radial-gradient(circle at 7% 25px, #fff, #fff 0.5px, transparent 1px, transparent),
+    radial-gradient(circle at 18% 6px, #fff, #fff 1.6px, transparent 2px, transparent),
+    radial-gradient(circle at 35% 12px, #fff, #fff 0.4px, transparent 0.8px, transparent),
+    radial-gradient(circle at 10% 20px, #fff, #fff 0.8px, transparent 1.2px, transparent),
+    radial-gradient(circle at 25% 4px, #fff, #fff 0.8px, transparent 1.2px, transparent),
+    radial-gradient(circle at 15% 16px, #fff, #fff 0.4px, transparent 0.8px, transparent),
+    radial-gradient(circle at 30% 22px, #fff, #fff 1.2px, transparent 1.6px, transparent),
+    radial-gradient(circle at 5% 8px, #fff, #fff 0.2px, transparent 0.4px, transparent),
+    radial-gradient(circle at 25% 18px, #fff, #fff 0.2px, transparent 0.4px, transparent),
+    radial-gradient(circle at 7% 10px, #fff, #fff 0.2px, transparent 0.4px, transparent),
     linear-gradient(90deg, #2b303e, #2b303e 50%, #5a81b4 50%, #5a81b4);
   background-repeat: no-repeat;
   background-size: 200% 100%;
   background-position: 100% 0;
   box-shadow:
-    0 -2px 3px #999,
-    inset 0 2px 4px #333,
-    0 3px 3px rgba(255, 255, 255, 0.9),
-    inset 0 -2px 4px #ddd;
+    0 -1px 1px #999,
+    inset 0 1px 1.5px #333,
+    0 1px 1px rgba(255, 255, 255, 0.9),
+    inset 0 -1px 1.5px #ddd;
   cursor: pointer;
   overflow: hidden;
   transition: .5s all;
   z-index: 1000;
 }
 
-#day-night-toggle::before {
+#change-skin::before {
   content: "";
   position: absolute;
-  width: 50px;
-  height: 50px;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
   background: #e9cb50;
-  top: 5px;
-  left: 5px;
+  top: 2px;
+  left: 2px;
   box-shadow:
-    0 0 4px #333,
-    inset 2px 2px 2px #f8f4e4,
-    inset -2px -2px 2px #665613;
+    0 0 1.5px #333,
+    inset 1px 1px 1px #f8f4e4,
+    inset -1px -1px 1px #665613;
   transition: .5s all;
   z-index: 1;
 }
 
-#day-night-toggle::after {
+#change-skin::after {
   content: "";
   position: absolute;
-  width: 45px;
-  height: 45px;
-  top: 7.5px;
-  left: 7.5px;
+  width: 18px;
+  height: 18px;
+  top: 3px;
+  left: 3px;
   border-radius: 50%;
   box-shadow:
-    7px 40px 0 7px #fff,
-    45px 40px 0 3px #fff,
-    65px 50px 0 7px #fff,
-    90px 30px 0 3px #fff,
-    115px 25px 0 7px #fff,
-    135px -3px 0 7px #fff,
-    -7px 0 0 35px rgba(255, 255, 255, 0.2),
-    10px 0 0 35px rgba(255, 255, 255, 0.15),
-    28px 0 0 35px rgba(255, 255, 255, 0.21),
-    7px 28px 0 7px #abc1d9,
-    50px 25px 0 7px #abc1d9,
-    65px 28px 0 7px #abc1d9,
-    90px 15px 0 7px #abc1d9,
-    105px 10px 0 7px #abc1d9,
-    130px -14px 0 7px #abc1d9;
+    2.8px 16px 0 2.8px #fff,
+    18px 16px 0 1.2px #fff,
+    26px 20px 0 2.8px #fff,
+    36px 12px 0 1.2px #fff,
+    46px 10px 0 2.8px #fff,
+    54px -1.2px 0 2.8px #fff,
+    -2.8px 0 0 14px rgba(255, 255, 255, 0.2),
+    4px 0 0 14px rgba(255, 255, 255, 0.15),
+    11.2px 0 0 14px rgba(255, 255, 255, 0.21),
+    2.8px 11.2px 0 2.8px #abc1d9,
+    20px 10px 0 2.8px #abc1d9,
+    26px 11.2px 0 2.8px #abc1d9,
+    36px 6px 0 2.8px #abc1d9,
+    42px 4px 0 2.8px #abc1d9,
+    52px -5.6px 0 2.8px #abc1d9;
   transition: .5s all;
 }
 
-#day-night-toggle:hover::before {
+#change-skin:hover::before {
   filter: contrast(90%) brightness(110%);
   transform: scale(1.05);
 }
 
-#day-night-toggle.active {
+#change-skin.active {
   background-position: 0 0;
 }
 
-#day-night-toggle.active::before {
-  transform: translateX(90px);
+#change-skin.active::before {
+  transform: translateX(36px);
   background:
-    radial-gradient(circle at 50% 15px, #939aa5, #939aa5 4px, transparent 5px, transparent),
-    radial-gradient(circle at 35% 30px, #939aa5, #939aa5 7px, transparent 8px, transparent),
-    radial-gradient(circle at 72% 35px, #939aa5, #939aa5 5px, transparent 6px, transparent),
+    radial-gradient(circle at 50% 6px, #939aa5, #939aa5 1.6px, transparent 2px, transparent),
+    radial-gradient(circle at 35% 12px, #939aa5, #939aa5 2.8px, transparent 3.2px, transparent),
+    radial-gradient(circle at 72% 14px, #939aa5, #939aa5 2px, transparent 2.4px, transparent),
     radial-gradient(#cbcdda, #cbcdda);
 }
 
-#day-night-toggle.active::after {
-  transform: translateX(90px);
+#change-skin.active::after {
+  transform: translateX(36px);
   box-shadow:
-    7px 40px 0 7px transparent,
-    45px 40px 0 3px transparent,
-    65px 50px 0 7px transparent,
-    90px 30px 0 3px transparent,
-    115px 25px 0 7px transparent,
-    135px -3px 0 7px transparent,
-    -7px 0 0 35px rgba(255, 255, 255, 0.2),
-    10px 0 0 35px rgba(255, 255, 255, 0.15),
-    28px 0 0 35px rgba(255, 255, 255, 0.21),
-    7px 28px 0 7px transparent,
-    50px 25px 0 7px transparent,
-    65px 28px 0 7px transparent,
-    90px 15px 0 7px transparent,
-    105px 10px 0 7px transparent,
-    130px -14px 0 7px transparent;
+    2.8px 16px 0 2.8px transparent,
+    18px 16px 0 1.2px transparent,
+    26px 20px 0 2.8px transparent,
+    36px 12px 0 1.2px transparent,
+    46px 10px 0 2.8px transparent,
+    54px -1.2px 0 2.8px transparent,
+    -2.8px 0 0 14px rgba(255, 255, 255, 0.2),
+    4px 0 0 14px rgba(255, 255, 255, 0.15),
+    11.2px 0 0 14px rgba(255, 255, 255, 0.21),
+    2.8px 11.2px 0 2.8px transparent,
+    20px 10px 0 2.8px transparent,
+    26px 11.2px 0 2.8px transparent,
+    36px 6px 0 2.8px transparent,
+    42px 4px 0 2.8px transparent,
+    52px -5.6px 0 2.8px transparent;
+}
+
+@media (max-width: 1199px) {
+  #change-skin {
+    top: 0.85rem;
+    transform: none;
+    right: 4.5rem;
+  }
 }
 
 /* 深色模式 CSS 变量定义 */
@@ -196,4 +205,17 @@
 .page-dark-mode .highlight pre.lineno {
   color: rgba(255, 255, 255, 0.3);
   border-right-color: #a0a0a0;
+}
+
+/* 为导航栏右侧按钮预留空间，防止遮挡链接 */
+@media (min-width: 1200px) {
+  .navbar .navbar-collapse {
+    margin-right: 7rem !important;
+  }
+}
+
+@media (max-width: 1199px) {
+  .navbar .navbar-collapse {
+    margin-right: 5.5rem !important;
+  }
 }
