@@ -4,7 +4,7 @@ title: About me
 subtitle: Why you'd want to go on a date with me
 ---
 
-### Hi there 👋 I'm 𝓚𝓪𝓲𝓳𝓾𝓷 𝓢𝓾
+### Hi there 👋 I'm 𝙆𝙖𝙞𝙟𝙪𝙣 𝙎𝙪
 
 🔭 I’m currently studying at 𝐁𝐞𝐢𝐣𝐢𝐧𝐠 𝐉𝐢𝐚𝐨𝐭𝐨𝐧𝐠 𝐔𝐧𝐢𝐯𝐞𝐫𝐬𝐢𝐭𝐲
 
@@ -13,7 +13,7 @@ subtitle: Why you'd want to go on a date with me
 ⚡ Passionate about power systems, embedded systems, and intelligent control
 
 📫 How to reach me:
-   - Email: 𝟸𝟻𝟻𝟸𝟷𝟺𝟺𝟿@𝚋𝚓𝚝𝚞.𝚎𝚍𝚞.𝚌𝚗 / 𝚜𝚞𝚔𝚊𝚒𝚓𝚞𝚗𝟸𝟹𝟹@𝚐𝚖𝚊𝚒𝚕.𝚌𝚘𝚖
+    - Email: [𝟸𝟻𝟻𝟸𝟷𝟺𝟺𝟿@𝚋𝚓𝚝𝚞.𝚎𝚍𝚞.𝚌𝚗](mailto:25521449@bjtu.edu.cn) / [𝚜𝚞𝚔𝚊𝚒𝚎𝚗𝟸𝟹𝟹@𝚐𝚖𝚊𝚒𝚕.𝚌𝚘𝚖](mailto:sukaijun233@gmail.com)
 
 ---
 ### 🛠️ Tech Stack
