@@ -30,15 +30,22 @@
           </li>
         {%- endif -%}
       {%- endfor -%}
-      {% if site.post_search %}
-        <li class="nav-item">
-          <a class="nav-link" id="nav-search-link" href="#" title="Search">
-            <span id="nav-search-icon" class="fa fa-search"></span>
-            <span id="nav-search-text">Search</span>
-          </a>
-        </li>
-      {%- endif -%}
-    </ul>
+       {% if site.post_search %}
+         <li class="nav-item">
+           <a class="nav-link" id="nav-search-link" href="#" title="Search">
+             <span id="nav-search-icon" class="fa fa-search"></span>
+             <span id="nav-search-text">Search</span>
+           </a>
+         </li>
+       {%- endif -%}
+       {% if site.github_navbar_url %}
+         <li class="nav-item">
+           <a class="nav-link" href="{{ site.github_navbar_url }}" target="_blank" title="GitHub Repository">
+             <i class="fab fa-github"></i>
+           </a>
+         </li>
+       {% endif %}
+     </ul>
   </div>
 
   <div id="change-skin" title="Toggle Night Mode"></div>
