@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: 𝓢𝓸𝓶𝓮𝓽𝓲𝓶𝓮 𝓮𝓿𝓮𝓻, 𝓼𝓸𝓶𝓮𝓽𝓲𝓶𝓮 𝓷𝓮𝓿𝓮𝓻.
 ---
 
 ### Hi there 👋 I'm 𝙆𝙖𝙞𝙟𝙪𝙣 𝙎𝙪
@@ -13,7 +13,7 @@ subtitle: Why you'd want to go on a date with me
 ⚡ Passionate about power systems, embedded systems, and intelligent control
 
 📫 How to reach me:
-    - Email: [𝟸𝟻𝟻𝟸𝟷𝟺𝟺𝟿@𝚋𝚓𝚝𝚞.𝚎𝚍𝚞.𝚌𝚗](mailto:25521449@bjtu.edu.cn) / [𝚜𝚞𝚔𝚊𝚒𝚎𝚗𝟸𝟹𝟹@𝚐𝚖𝚊𝚒𝚕.𝚌𝚘𝚖](mailto:sukaijun233@gmail.com)
+    - Email: [𝟸𝟻𝟻𝟸𝟷𝟺𝟺𝟿@𝚋𝚓𝚝𝚞.𝚎𝚍𝚞.𝚌𝚗](mailto:25521449@bjtu.edu.cn) / [𝚜𝚞𝚔𝚊𝚒𝚓𝚞𝚗𝟸𝟹𝟹@𝚐𝚖𝚊𝚒𝚕.𝚌𝚘𝚖](mailto:sukaijun233@gmail.com)
 
 ---
 ### 🛠️ Tech Stack
