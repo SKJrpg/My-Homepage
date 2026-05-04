@@ -278,6 +278,9 @@ defaults:
       layout: "post"
       comments: true # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
+      js:
+        - "/assets/js/reading-progress.js"
+        - "/assets/js/back-to-top.js"
   - scope:
       path: "" # any file that's not a post will be a "page" layout by default
     values:
