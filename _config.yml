@@ -163,9 +163,7 @@ site-css:
 
 # If you have common JavaScript files that should be included in every page, list them here
 site-js:
-  - "/assets/js/back-to-top.js"
   - "/assets/js/dark-mode.js"
-  - "/assets/js/reading-progress.js"
   - "/assets/js/quick-enhancements.js"
 
 #################################
