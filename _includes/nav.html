@@ -1,10 +1,17 @@
 <nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom {% if page.nav-short %}top-nav-short-permanent{% else %}top-nav-regular{% endif %}">
 
+  {%- assign brand_class = "navbar-brand" -%}
   {%- if site.title-img -%}
-    <a class="navbar-brand navbar-brand-logo" href="{{ '/' | absolute_url }}"><img alt="{{ site.title }} Logo" src="{{ site.title-img | relative_url}}"/></a>
-  {%- elsif site.title -%}
-    <a class="navbar-brand" href="{{ '/' | absolute_url }}">{{ site.title }}</a>
+    {%- assign brand_class = "navbar-brand navbar-brand-logo" -%}
   {%- endif -%}
+  <a class="{{ brand_class }}" href="{{ '/' | absolute_url }}">
+    <i class="fa-solid fa-house mr-2"></i>
+    {%- if site.title-img -%}
+      <img alt="{{ site.title }} Logo" src="{{ site.title-img | relative_url}}"/>
+    {%- elsif site.title -%}
+      {{ site.title }}
+    {%- endif -%}
+  </a>
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
