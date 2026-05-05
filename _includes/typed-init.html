@@ -1,0 +1,26 @@
+{% if site.typed and site.typed.enabled %}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  if (typeof Typed !== 'undefined') {
+    var typedOptions = {
+      strings: {{ site.typed.strings | jsonify }},
+      typeSpeed: {{ site.typed.typeSpeed | default: 50 }},
+      backSpeed: {{ site.typed.backSpeed | default: 30 }},
+      backDelay: {{ site.typed.backDelay | default: 1500 }},
+      startDelay: {{ site.typed.startDelay | default: 500 }},
+      loop: {{ site.typed.loop | default: false }},
+      loopCount: {{ site.typed.loopCount | default: 'Infinity' }},
+      smartBackspace: {{ site.typed.smartBackspace | default: true }},
+      onComplete: function() {
+        var cursor = document.querySelector('.typed-cursor');
+        if (cursor) { cursor.style.display = 'none'; }
+      }
+    };
+    {% if site.typed.cursorChar %}
+    typedOptions.cursorChar = '{{ site.typed.cursorChar }}';
+    {% endif %}
+    new Typed('#typed-title', typedOptions);
+  }
+});
+</script>
+{% endif %}
