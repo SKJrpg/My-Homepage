@@ -1,8 +1,8 @@
 // 回到顶部按钮
 const backToTopBtn = document.createElement("button");
-backToTopBtn.innerHTML = "↑";
-backToTopBtn.style.cssText =
-  "position:fixed;bottom:60px;right:20px;display:none;z-index:1000;";
+backToTopBtn.className = "back-to-top-btn";
+backToTopBtn.setAttribute("aria-label", "回到顶部");
+  backToTopBtn.innerHTML = '<i class="fas fa-arrow-up"></i>';
 
 backToTopBtn.addEventListener("click", function () {
   window.scrollTo({ top: 0, behavior: "smooth" });
@@ -12,8 +12,8 @@ document.body.appendChild(backToTopBtn);
 
 window.addEventListener("scroll", function () {
   if (window.scrollY > 300) {
-    backToTopBtn.style.display = "block";
+    backToTopBtn.classList.add("visible");
   } else {
-    backToTopBtn.style.display = "none";
+    backToTopBtn.classList.remove("visible");
   }
 });
