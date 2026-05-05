@@ -29,4 +29,4 @@ author: SKJ
 
 **目前为止一切正常，差不多就样吧！😄**
 
-#### 此外，发现 GitHub Stats 无法正常运作，参考了 [chenxuan520 的文章](https://juejin.cn/post/7582422818311569459)，进行了自托管，部署在 Cloudfare 上，这样就可以正常显示了。
+#### 此外，发现 [GitHub Stats](https://skjstats.qzz.io/?username=skjrpg&theme=radical) 无法正常运作，参考了 [chenxuan520 的文章](https://juejin.cn/post/7582422818311569459)，进行了自托管，部署在 Cloudfare 上，这样就可以正常显示了。
