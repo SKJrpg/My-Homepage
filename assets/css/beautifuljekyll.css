@@ -109,6 +109,59 @@ hr.small {
   display: none;
 }
 
+/* --- Back to Top Button --- */
+.back-to-top-btn {
+  position: fixed;
+  bottom: 3.75rem;
+  right: 1.25rem;
+  z-index: 1000;
+  width: 2.75rem;
+  height: 2.75rem;
+  border: none;
+  border-radius: 50%;
+  background-color: var(--link-col, #008AFF);
+  color: #fff;
+  font-size: 1.125rem;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(0.625rem);
+  transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease, background-color 0.2s ease;
+  box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  outline: none;
+}
+
+.back-to-top-btn:hover,
+.back-to-top-btn:focus {
+  background-color: var(--hover-col, #0085A1);
+  transform: translateY(0);
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.2);
+}
+
+.back-to-top-btn.visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.back-to-top-btn i {
+  pointer-events: none;
+}
+
+@media (max-width: 48rem) {
+  .back-to-top-btn {
+    bottom: 2.5rem;
+    right: 1rem;
+    width: 2.25rem;
+    height: 2.25rem;
+    font-size: 0.875rem;
+  }
+}
+
 ::-moz-selection {
   color: var(--page-col);
   background-color: var(--hover-col);
