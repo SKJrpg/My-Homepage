@@ -3,7 +3,7 @@ layout: post
 title: 从一到零到一：网站的重构
 subtitle: 花了几天时间好好打磨
 cover-img: /assets/img/from-one-to-zero-to-one/brotherhood-studio.jpg
-thumbnail-img: /assets/img/from-one-to-zero-to-one/ostudio.jpg
+thumbnail-img: /assets/img/from-one-to-zero-to-one/micheile-henderson.jpg
 share-img: assets/img/from-one-to-zero-to-one/brotherhood-studio.jpg
 gh-repo: SKJrpg/skjrpg.github.io
 gh-badge: [star, fork, follow]
