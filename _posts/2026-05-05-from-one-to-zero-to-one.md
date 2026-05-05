@@ -23,7 +23,7 @@ author: SKJ
 
 一些功能来源于[5分钟掌握Beautiful Jekyll主题的JavaScript增强功能终极指南](https://blog.csdn.net/gitblog_01134/article/details/151743976)，里面的一些示例可供我直接套用，包括**阅读进度指示器** `reading-progress.js` 和**回到顶部按钮** `back-to-top.js`。
 
-接下来是对主页的副标题进行修改，为了实现动态的、变化的文字效果，依旧选择了 [**`一言api`**](https://hitokoto.cn/)，[官网](https://hitokoto.cn/)有调用示例，交给 AI 很快就可以完成。
+接下来是对主页的副标题进行修改，为了实现动态的、变化的文字效果，依旧选择了 [**`Hitokoto 一言api`**](https://hitokoto.cn/)，[官网](https://hitokoto.cn/)有调用示例，交给 AI 很快就可以完成。
 
 最后，对一些细节进行修改，包括社交链接，字体（花体字的应用），[源代码仓库](https://github.com/SKJrpg/skjrpg.github.io)链接的添加。
 
