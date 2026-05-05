@@ -1,5 +1,5 @@
 worktree_create:
-  branch: "feat/back-to-top-button"
+  branch: "feat/typed-title"
   baseBranch: "dev"
   
 
