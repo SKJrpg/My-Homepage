@@ -7,7 +7,7 @@ thumbnail-img: /assets/img/from-one-to-zero-to-one/micheile-henderson.jpg
 share-img: assets/img/from-one-to-zero-to-one/brotherhood-studio.jpg
 gh-repo: SKJrpg/skjrpg.github.io
 gh-badge: [star, fork, follow]
-tags: []
+tags: [Beautiful Jekyll, Jekyll, Website Refactoring, Dark Mode, Responsive Design, Web Development, JavaScript]
 author: SKJ
 ---
 
