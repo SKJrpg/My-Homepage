@@ -1,0 +1,8 @@
+worktree_create:
+  branch: "feat/back-to-top-button"
+  baseBranch: "dev"
+  
+
+worktree_delete:
+  reason: "feature completed"
+  
