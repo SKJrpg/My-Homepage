@@ -36,3 +36,7 @@
     <script src="{{ js | relative_url }}"></script>
   {% endfor %}
 {% endif %}
+
+{% if site.typed and site.typed.enabled and page.layout == 'home' %}
+  {% include typed-init.html %}
+{% endif %}

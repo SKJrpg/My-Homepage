@@ -16,7 +16,25 @@ layout: null
   --footer-col: {{ site.footer-col | default: "#EAEAEA" }};
   --footer-text-col: {{ site.footer-text-col | default: "#777777" }};
   --footer-link-col: {{ site.footer-link-col | default: "#404040" }};
-  --footer-hover-col: {{ site.footer-hover-col | default: "#0085A1" }};
+   --footer-hover-col: {{ site.footer-hover-col | default: "#0085A1" }};
+}
+
+/* --- Typewriter Effect --- */
+#typed-title {
+  display: inline;
+  min-height: 1em;
+}
+
+.typed-cursor {
+  color: inherit;
+  font-weight: 100;
+  animation: typed-blink 0.7s infinite;
+}
+
+@keyframes typed-blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
 
   /* common CSS variables */
   --body-font: 'Lora', 'Times New Roman', serif;

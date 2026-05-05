@@ -305,6 +305,20 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
 
+# Typewriter effect for homepage title
+typed:
+  enabled: true
+  strings:
+    - "Hello, I'm SKJ"
+    - "欢迎来到我的主页"
+  typeSpeed: 50
+  backSpeed: 30
+  backDelay: 1500
+  startDelay: 500
+  loop: false
+  smartBackspace: true
+  cursorChar: "|"
+
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
 
