@@ -51,8 +51,11 @@ round-avatar: true
 social-network-links:
   email: "sukaijun233@gmail.com"
   # rss: true # remove this line if you don't want to show an RSS link at the bottom
-  # facebook: deanattali
   github: skjrpg
+  bilibili: 473155375 # B 站 UID
+  weibo: 7757358920 # 微博 id
+  zhihu: 4cb0wi # 知乎 id
+  douyin: MS4wLjABAAAAX1XikKC7fgPwllA2l7AZvdsqB_nSxkzXUzt5PW2Xi1IIrEpIWDoqr5jFwgBFV0oc # 抖音 sec_uid
   # twitter: daattali
   # patreon: DeanAttali
   # youtube: "@daattali"
@@ -66,7 +69,6 @@ social-network-links:
   # instagram: deanat78
   # spotify: yourname
   # telephone: +14159998888
-  steam: 76561199866918242
   # twitch: yourname
   # yelp: yourname
   # telegram: yourname
