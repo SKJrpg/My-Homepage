@@ -1195,3 +1195,17 @@ pre {
     display: inline-block;
   }
 }
+
+/* --- Custom Social Icons (SVG from SimpleIcons) --- */
+.custom-icon {
+  position: relative;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+
