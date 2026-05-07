@@ -1,5 +1,5 @@
 worktree_create:
-  branch: "feat/typed-title"
+  branch: "feat/newpage-CHANGELOG"
   baseBranch: "dev"
   
 
