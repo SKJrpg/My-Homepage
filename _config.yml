@@ -10,7 +10,7 @@
 ############################
 
 # Name of website
-title: 𝐇𝐨𝐦𝐞
+title: HOME
 
 # Your name to show in the footer
 author: 𝕊𝕂𝕁
@@ -23,9 +23,9 @@ navbar-links:
   About Me: "aboutme"
   Blog: "https://blog.sukaijun.dpdns.org"
   Resources:
+    - Changelog: "changelog"
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
-    - Changelog: "changelog"
 
 ################
 # --- Logo --- #
@@ -104,7 +104,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "𝐌𝐲𝐖𝐞𝐛𝐬𝐢𝐭𝐞"
+url-pretty: "sukaijun.dpdns.org"
 
 # Add the website title to the title of every page
 title-on-all-pages: true
@@ -122,7 +122,7 @@ feed_show_tags: true
 post_search: true
 
 # GitHub repository link to show in navbar (next to search button)
-github_navbar_url: "https://github.com/SKJrpg/skjrpg.github.io"
+github_navbar_url: "https://github.com/SKJrpg/My-Homepage"
 
 # Add a button in the footer to edit the current page. Only works if your website is hosted on GitHub
 edit_page_button: true
@@ -313,14 +313,14 @@ typed:
   enabled: true
   strings:
     - "Hello, I'm SKJ"
-    - "欢迎来到我的主页"
+    - "欢迎访问我的主页"
   typeSpeed: 50
   backSpeed: 30
   backDelay: 1500
   startDelay: 500
   loop: false
   smartBackspace: true
-  cursorChar: "|"
+  cursorChar: "_"
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
